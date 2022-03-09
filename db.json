@@ -1,0 +1,74 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Doberman Pinscher",
+      "image": "https://i.pinimg.com/originals/85/81/bf/8581bff3bcdb2457947dbbb682579c54.jpg",
+      "attributes": {
+        "weight": "80-105",
+        "height": "27-28",
+        "color": "Black or brown with rust red",
+        "longevity": "10-12",
+        "energy": "Very energetic",
+        "grooming": "Low"
+      },
+      "description": "The Doberman pinscher has a long head and a sleek, muscular body. The ears are often cropped to stand erect, and the tail is usually docked short. The Doberman pinscher has a short, sleek and shiny coat that is black, dark red, blue or fawn with rust-colored markings on the face, body and tail. This dog is an average shedder and requires minimal grooming. Dobermans live about 10 to 12 years."
+    },
+    {
+      "id": 2,
+      "name": "French Bulldog",
+      "image": "https://s.yimg.com/ny/api/res/1.2/hZ.Cpi4W_9W.rTmFfc9mCw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTUyOTtjZj13ZWJw/https://s.yimg.com/uu/api/res/1.2/gdpzkQpAX8hZzNoeu7nmeA--~B/aD03Njg7dz0xMDI0O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/the_independent_635/d30ead0829c888ec42f94bd2f8b1bc7c",
+      "attributes": {
+        "weight": "16-28",
+        "height": "11-13",
+        "color": "Cream, fawn, white",
+        "longevity": "10-12",
+        "energy": "Calm",
+        "grooming": "Moderate"
+      },
+      "description": "The French bulldog is not simply a miniature bulldog. The most notable characteristic is the 'bat' ear, which occurs naturally and is never cropped or altered. Also unique to the breed is the skull, which is flat between the ears. The French bulldog is a compact, muscular dog with a flat, short coat. Colors common to the breed include fawn, white and varieties of brindle. The male and female dog weight is 25-27 lbs."
+    },
+    {
+      "id": 3,
+      "name": "Golden Retriever",
+      "image": "https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg",
+      "attributes": {
+        "weight": "55-75",
+        "height": "22-24",
+        "color": "Golden of various shades",
+        "longevity": "10-13",
+        "energy": "Average",
+        "grooming": "Moderate"
+      },
+      "description": "The golden retriever has a water-repellent coat that is wavy or flat and gold to cream in color. One of the most attractive features of this breed is the feathering on the neck, legs, thighs, underside and tail. The dog's head is strong and broad. The ears are not very large, but they sit high on the head and hang just below the jaw line. The chest is deep, and the body is well balanced. Golden retrievers live about 10 to 13 years."
+    },
+    {
+      "id": 4,
+      "name": "Weimaraner",
+      "image": "https://www.bil-jac.com/media/yhlo5k15/weimaraner-487576070.jpg?anchor=center&mode=crop&width=600&height=400&rnd=132169061334430000",
+      "attributes": {
+        "weight": "70-85",
+        "height": "24-26",
+        "color": "Mouse-gray to silver-gray",
+        "longevity": "10-13",
+        "energy": "Very energetic",
+        "grooming": "Low"
+      },
+      "description": "A male Weimaraner is 25 to 27 inches at the shoulder; females are smaller at 23 to 25 inches tall. Their bodies are strong and built for work, streamlined and able to run with great endurance. The head is strong and hound-like with dropped ears. Weimaraners generally mature at 1 to 2 years, although they reach their full size around 6 to 8 months. The Weimaraner coat is short, smooth, and sleek and considered 'wash and wear;' these dogs require little more than a quick rubdown with a rubber curry brush. The color is mouse-gray to silver-gray, giving the dog the nickname 'the Gray Ghost.'"
+    },
+    {
+      "id": 5,
+      "name": "Siberian Husky",
+      "image": "https://www.dogsnsw.org.au/media/img/BrowseAllBreed//Siberian-Husky.jpg",
+      "attributes": {
+        "weight": "35-50",
+        "height": "21-23",
+        "color": "All colors from black to pure white",
+        "longevity": "11-13",
+        "energy": "Average",
+        "grooming": "Moderate"
+      },
+      "description": "The Siberian husky has erect ears and eyes of brown to blue or maybe even one of each color.The neck is carried straight and the topline is level. The well-furred tail is carried up in a sickle or sometimes straight out behind. Siberian huskies have a very dense, plush coat with plenty of undercoat. A small ruff is found around the neck but no long fringes on the legs or tail. Color ranges from black to white and everything in-between. Most dogs do have white markings, particularly on the chest and legs."
+    }
+  ]
+}
