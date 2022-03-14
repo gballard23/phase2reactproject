@@ -78,7 +78,7 @@ function DogForm(){
                 Attributes:
                 <div>
                     <label>
-                        weight:
+                        Weight:
                         <input
                         type="text"
                         name="weight"
@@ -89,7 +89,7 @@ function DogForm(){
                 </div>
                 <div>  
                     <label>
-                        height:
+                        Height:
                         <input
                         type="text"
                         name="height"
@@ -100,7 +100,7 @@ function DogForm(){
                 </div> 
                 <div> 
                     <label>
-                        color:
+                        Color:
                         <input
                         type="text"
                         name="color"
@@ -111,7 +111,7 @@ function DogForm(){
                 </div>
                 <div>  
                     <label>
-                        lifespan:
+                        Lifespan:
                         <input
                         type="text"
                         name="longevity"
@@ -122,7 +122,7 @@ function DogForm(){
                 </div>
                 <div>  
                     <label>
-                        energy:
+                        Energy:
                         <select name="energy" value={formData.energy} onChange={handleChange}>
                         <option value="Calm">Calm</option>
                         <option value="Moderate energy">Moderate energy</option>
@@ -132,7 +132,7 @@ function DogForm(){
                 </div>
                 <div>  
                     <label>
-                        grooming:
+                        Grooming:
                         <select name="grooming" value={formData.grooming} onChange={handleChange}>
                             <option value="Low">Low</option>
                             <option value="Moderate">Moderate</option>
@@ -140,6 +140,7 @@ function DogForm(){
                         </select>
                     </label>
                     <label>
+                        Description:
                         <input 
                          type="text" 
                          name="description" 

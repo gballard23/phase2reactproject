@@ -69,6 +69,20 @@
         "grooming": "Moderate"
       },
       "description": "The Siberian husky has erect ears and eyes of brown to blue or maybe even one of each color.The neck is carried straight and the topline is level. The well-furred tail is carried up in a sickle or sometimes straight out behind. Siberian huskies have a very dense, plush coat with plenty of undercoat. A small ruff is found around the neck but no long fringes on the legs or tail. Color ranges from black to white and everything in-between. Most dogs do have white markings, particularly on the chest and legs."
+    },
+    {
+      "name": "English BullDog",
+      "image": "https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/english-bulldog-detail.jpg?bust=1535565637&width=355",
+      "attributes": {
+        "weight": "40-50",
+        "height": "14-15",
+        "color": "Fawn brindle & white",
+        "longevity": "8-10",
+        "energy": "Moderate energy",
+        "grooming": "Moderate"
+      },
+      "description": "Kind but courageous, friendly but dignified, the Bulldog is a thick-set, low-slung, well-muscled bruiser whose 'sourmug' face is the universal symbol of courage and tenacity. These docile, loyal companions adapt well to town or country. ",
+      "id": 6
     }
   ]
 }
