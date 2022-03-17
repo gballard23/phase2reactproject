@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(){
-    return <div>
+    return <div className="home">
         <h1><strong>The Dog Farm</strong></h1>
 
         <h3>Welcome to "The Dog Farm". This website is for people looking to get a dog and want more info before they become new pet owners.

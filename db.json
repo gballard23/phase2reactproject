@@ -83,6 +83,34 @@
       },
       "description": "Kind but courageous, friendly but dignified, the Bulldog is a thick-set, low-slung, well-muscled bruiser whose 'sourmug' face is the universal symbol of courage and tenacity. These docile, loyal companions adapt well to town or country. ",
       "id": 6
+    },
+    {
+      "name": "Black Lab",
+      "image": "",
+      "attributes": {
+        "weight": "40-50",
+        "height": "20-40",
+        "color": "black",
+        "longevity": "10-12",
+        "energy": "Moderate energy",
+        "grooming": "Moderate"
+      },
+      "description": "large playful dog",
+      "id": 7
+    },
+    {
+      "name": "pit bull",
+      "image": "",
+      "attributes": {
+        "weight": "dhlk;a",
+        "height": "14-15",
+        "color": "Fawn brindle & white",
+        "longevity": "10-12",
+        "energy": "Moderate energy",
+        "grooming": "Moderate"
+      },
+      "description": "hat",
+      "id": 8
     }
   ]
 }

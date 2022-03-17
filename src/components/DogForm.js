@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 
-function DogForm(){
+function DogForm({dogs, setDogs}){
     const [formData, setFormData] = useState({
         name:"",
         image:"",
@@ -43,15 +43,15 @@ function DogForm(){
                     description:formData.description,
                 })
         })
-
-        console.log(formData)
+        .then((r) => r.json())
+        .then((dog) => setDogs([...dogs, dog]))
     }
 
     return (
     <section>
         <h1>New Dog</h1>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className="form">
             <label>
                 Breed:
                 <input
@@ -62,7 +62,7 @@ function DogForm(){
                 />
             </label>
           </div>  
-          <div>
+          <div className="form">
             <label>
                 Image:
                 <input 
@@ -73,10 +73,10 @@ function DogForm(){
                 />
             </label>
           </div>
-          <div>  
+          <div className="form">  
             <label>
                 Attributes:
-                <div>
+                <div className="form">
                     <label>
                         Weight:
                         <input
@@ -87,7 +87,7 @@ function DogForm(){
                         />
                     </label>
                 </div>
-                <div>  
+                <div className="form">  
                     <label>
                         Height:
                         <input
@@ -98,7 +98,7 @@ function DogForm(){
                         />
                     </label>
                 </div> 
-                <div> 
+                <div className="form"> 
                     <label>
                         Color:
                         <input
@@ -109,7 +109,7 @@ function DogForm(){
                         />
                     </label>
                 </div>
-                <div>  
+                <div className="form">  
                     <label>
                         Lifespan:
                         <input
@@ -120,7 +120,7 @@ function DogForm(){
                         />
                     </label>
                 </div>
-                <div>  
+                <div className="form">  
                     <label>
                         Energy:
                         <select name="energy" value={formData.energy} onChange={handleChange}>
@@ -130,7 +130,7 @@ function DogForm(){
                         </select>
                     </label>
                 </div>
-                <div>  
+                <div className="form">  
                     <label>
                         Grooming:
                         <select name="grooming" value={formData.grooming} onChange={handleChange}>
@@ -139,9 +139,12 @@ function DogForm(){
                             <option value="High">High</option>
                         </select>
                     </label>
+                    </div>
+                    <div id="description"> 
                     <label>
                         Description:
                         <input 
+                         id="textbox"
                          type="text" 
                          name="description" 
                          value={formData.description}
@@ -150,8 +153,8 @@ function DogForm(){
                     </label>
                 </div>  
             </label>
-            </div>  
-            <button type="submit">Add Dog</button>
+            </div >  
+            <button  type="submit">Add Dog</button>
         </form>
     </section>
         

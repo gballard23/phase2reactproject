@@ -1,15 +1,16 @@
 import React from "react";
 
 function DogCard({dogs}){      
+
  return (
     <div className='dog'>
         <h1><strong>{dogs.name}</strong></h1>
         <div>
             <img src={dogs.image} alt={dogs.name}/>
         </div>
-        <div>
+        <div className="attributes">
             <h3><strong>Attributes</strong></h3>
-           <ul>
+           <ul className="attList">
                <li key={dogs.attributes.weight}>weight: {dogs.attributes.weight} lbs</li>
                <li key={dogs.attributes.height}>height: {dogs.attributes.height} in.</li>
                <li key={dogs.attributes.color}>color: {dogs.attributes.color}</li>
@@ -18,7 +19,7 @@ function DogCard({dogs}){
                <li key={dogs.attributes.grooming}>grooming level: {dogs.attributes.grooming}</li>
             </ul>     
         </div>
-        <div>
+        <div className="description">
             <h3>Description</h3>
             <p>{dogs.description}</p>
         </div>

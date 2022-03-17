@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# The Dog Farm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React.js Project
 
-## Available Scripts
+## Summery
 
-In the project directory, you can run:
+The motivation for this app was a business idea that sells dogs of different breeds.
+This business would need to have an app for users interested in becoming a new pet owner and give the business the ability to add new breeds of dog they may have to list.
+Attributes detailing the unique features and physical traits of the specific breed like grooming needs, weight, and height.
+This app will help the user make a better-informed decision before getting a dog that may not fit their lifestyle or personality.
+The app currently consists of 3 pages. Home, Doglist, and Dogform. The app would expand much like the business, offering optional training of the dog with the owner by adding a scheduling
+system. Add a page for people to create a profile for people and be able to have a favorite dog list of breeds the user likes. More info on the dog cards like overall health issues.  
 
-### `npm start`
+### Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Home:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Home page is the intro to the app. It consists of the project title and a quick description of what is about.
 
-### `npm test`
+2. Doglist(Dogs):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The "Dog list" page is where all the info for the different dog breeds is. This page is mostly the user side of the app. 
+The idea for the look of each breeds personal info(section)was to look kinda like a trading card.
+The cards have the breed's name, a picture of that breed, attributes specific to the dog, and a 
+brief description of the breed's personality.
 
-### `npm run build`
+3. DogForm(Add Dog):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The "Dog form" is mostly for the business side. Giving the business the ability to add to the dog list for new breeds they may offer.
+The form has inputs for the name, image, attributes(weight, height, color, lifespan, energy, and grooming).
+Allowing the business to inform their future customers on what to look forward to when getting a certain breed.
+For example, a customer would know that if the dog has a high grooming need, the dog will shed fur or more likely need more
+trips for a trim.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Conclusion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This app in a business mindset is not to give the user too much info but enough to steer them towards contacting
+the business for more info through a professional.
