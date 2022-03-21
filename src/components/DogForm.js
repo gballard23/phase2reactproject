@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 
-function DogForm({dogs, setDogs}){
+function DogForm({dogs, setDogs, change}){
     const [formData, setFormData] = useState({
         name:"",
         image:"",
@@ -45,6 +45,7 @@ function DogForm({dogs, setDogs}){
         })
         .then((r) => r.json())
         .then((dog) => setDogs([...dogs, dog]))
+        change()
     }
 
     return (

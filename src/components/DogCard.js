@@ -4,7 +4,7 @@ function DogCard({dogs}){
 
  return (
     <div className='dog'>
-        <h1><strong>{dogs.name}</strong></h1>
+        <h1 className="underlined"><strong>{dogs.name}</strong></h1>
         <div>
             <img src={dogs.image} alt={dogs.name}/>
         </div>

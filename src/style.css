@@ -70,7 +70,7 @@ img {
     margin-left: 650px;
 }
 
-h1 {
+.underlined {
     border: 4px black;
     border-bottom: solid;
     padding-bottom: 10px;
@@ -108,4 +108,13 @@ section {
 
 button {
     margin-top: 40px;
+}
+
+.subform {
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    border: solid;
+    
 }

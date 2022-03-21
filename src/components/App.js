@@ -2,8 +2,9 @@ import React, { useEffect, useState} from "react";
 import NavBar from "./NavBar";
 import { Route, Switch } from "react-router-dom";
 import DogList from "./DogList";
-import DogForm from "./DogForm";
 import Home from "./Home";
+import NewDog from "./NewDog";
+import DogForm from "./DogForm";
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <DogList dogs={dogs}/>
         </Route>
         <Route exact path="/dogform">
-          <DogForm  dogs={dogs} setDogs={setDogs}/>
+          <NewDog  dogs={dogs} setDogs={setDogs}/>
         </Route>
         <Route exact path="/">
           <Home />
