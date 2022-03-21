@@ -1,5 +1,4 @@
 import React, { useEffect, useState} from "react";
-import { Redirect } from "react-router-dom";
 import DogForm from "./DogForm";
 
 function NewDog({dogs, setDogs}) {
@@ -11,8 +10,11 @@ function NewDog({dogs, setDogs}) {
  }
 
  useEffect(() => {
-     setPage(<DogForm dogs={dogs} setDogs={setDogs} change={handlePageChange}/>)
- }, [])
+    setTimeout(() => {
+        setPage(<DogForm dogs={dogs} setDogs={setDogs} change={handlePageChange}/>)
+    }, 3000);
+    
+ }, [dogs, setDogs])
     
     return (
         <div>
