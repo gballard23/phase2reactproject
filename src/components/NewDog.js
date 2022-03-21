@@ -8,7 +8,6 @@ function NewDog({dogs, setDogs}) {
 
  function handlePageChange(){
      setPage(<><h1 className="subform">New Dog Added</h1> </>)
-     setTimeout(() => <Redirect to="/dogform"/>, 4000)
  }
 
  useEffect(() => {
